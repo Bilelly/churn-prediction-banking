@@ -36,11 +36,11 @@ Modèles testés :
 
 RandomForest, ExtraTrees
 
-LightGBM, XGBoost, CatBoost, HistGBM, AdaBoost
+LightGBM, XGBoost, CatBoost
 
 MLPClassifier
 
-Logistic Regression, KNN, GaussianNB
+Logistic Regression
 
 Techniques :
 
@@ -48,21 +48,9 @@ Validation croisée stratifiée
 
 Filtrage des folds avec test de Kolmogorov-Smirnov
 
-Hyperparameter Tuning : GridSearch, RandomSearch, Optuna, Hyperopt
+Hyperparameter Tuning : GridSearch, Optuna
 
 Sélection de variables par permutation importance et corrélations
-
-3. Performances finales
-
-Modèles retenus :
-
-CatBoost (AUC = 0.9372)
-
-XGBoost (AUC = 0.9367)
-
-Prétraitements finaux :
-
-Pas de retrait d’outliers
 
 SMOTE
 
@@ -70,23 +58,4 @@ Normalisation
 
 One-hot encoding
 
-🧠 Principaux insights
-
-L’âge, le solde, l’activité et les ratios financiers sont des variables clés.
-
-L’optimisation bayésienne (Optuna) donne les meilleurs résultats.
-
-Les modèles basés gradient boosting dominent largement les autres approches.
-
-🚀 Perspectives
-
-Étendre le modèle à d’autres jeux de données bancaires
-
-Ajouter des données externes (macroéconomie, comportement digital)
-
-Étudier des modèles explicables (SHAP, LIME)
-
-Construire un système de scoring en production
-
-👩‍💻 Auteurs : Bilal SAYOUD
 
