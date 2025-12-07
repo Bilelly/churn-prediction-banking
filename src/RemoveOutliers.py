@@ -3,8 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-
-# Fonction pour supprimer les outliers en utilisant l'IQR
+# outlier removal using IQR method
 def remove_outliers(df, features):
     df_cleaned = df.copy()
     for feature in features:
